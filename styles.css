@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --kasa-color: rgb(72, 195, 236);
+}
+body{
+    background-color: rgb(62, 61, 61);
+    color: white;
+}
+
+
+.container{
+    margin: 30px auto;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+#change-due{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+}
+input{
+    padding: 5px 10px;
+    width: 200px;
+    outline: none;
+}
+button{
+    padding: 5px 10px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.kasa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#total{
+    width: 200px;
+    height: 50px;
+    border: 10px solid var(--kasa-color);
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+}
+#leg{
+    width: 40px;
+    height: 30px;
+    background-color: var(--kasa-color);
+    position: relative;
+    left: -50px;
+}
+#block{
+    width: 300px;
+    height: 250px;
+    background-color: var(--kasa-color);
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+#left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 70px;
+    height: 60px;
+    flex-wrap: wrap;
+}
+.item{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(62, 61, 61);
+}
+#screen{
+    width: 170px;
+    background-color: white;
+    padding: 10px;
+}
+h3{
+    color: black;
+    font-size: 18px;
+}
+.coins{
+    color: black;
+}
+#bottom{
+    width: 300px;
+    height: 50px;
+    background-color: var(--kasa-color);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#curcle{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(62, 61, 61);
+    border-radius: 50%;
+}
